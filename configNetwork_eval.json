@@ -1,0 +1,22 @@
+{
+  "img_rows":224,
+  "img_cols":224,
+  "lr": 0.0001,
+  "optimizer": "adam",
+  "batch_size": 5,
+  "epoch_size": 1,
+  "CLAHE": false,
+  "nb_epoch": 40,
+  "predict_batch_size": 5,
+  "CROP": false,
+  "Flip": false,
+  "lighting": false,
+  "affine": false,
+  "randcrop": false,
+  "perspective": false,
+  "dbg": false,
+  "save_images": true,
+  "weights": "imagenet",
+  "data_path":"/media/a252/540/TrainingSet_NewGT",
+  "data_path_test": "/media/a252/540/AsuMayoTest"
+}
